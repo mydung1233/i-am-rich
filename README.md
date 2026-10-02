@@ -28,22 +28,50 @@ i-am-rich/
 ├── app.json                 <-- Cấu hình Expo
 ├── package.json             <-- Dependencies
 └── README.md
+```
 ## 💎 Giải thích mã nguồn (App.js)
-App(): Component chính của ứng dụng.
-View: Component dùng để xây dựng bố cục giao diện.
-Text: Hiển thị nội dung văn bản.
-Image: Hiển thị hình ảnh.
-StyleSheet.create(): Tạo và quản lý style cho các component.
-StatusBar: Điều chỉnh thanh trạng thái của điện thoại.
+
+**App():** Component chính của ứng dụng.
+
+**View:** Component dùng để xây dựng bố cục giao diện.
+
+**Text:** Hiển thị nội dung văn bản.
+
+**Image:** Hiển thị hình ảnh.
+
+**StyleSheet.create():** Tạo và quản lý style cho các component.
+
+**StatusBar:** Điều chỉnh thanh trạng thái của điện thoại.
+
+````markdown
 ## 🚀 Cách chạy ứng dụng
-Mở Terminal tại thư mục dự án:
+
+**1. Mở Terminal tại thư mục dự án:**
+
+```bash
 cd i-am-rich
-Cài dependencies:
+````
+
+**2. Cài dependencies:**
+
+```bash
 npm install
-Chạy ứng dụng:
+```
+
+**3. Chạy ứng dụng:**
+
+```bash
 npx expo start
-Quét mã QR bằng Expo Go trên điện thoại.
+```
 
-Nếu QR không kết nối được:
+**4. Quét mã QR bằng Expo Go trên điện thoại.**
 
+**Nếu QR không kết nối được:**
+
+```bash
 npx expo start --tunnel
+```
+
+```
+```
+
